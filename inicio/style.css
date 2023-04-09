@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration:none ;
+    /*se le quita lo subrrayado*/
+    color: aliceblue;
+}
+
+ul{
+    display: flex;
+    /*flex = acomoda los elementos*/
+    justify-content: space-evenly;
+    /* deja espacion entre los elemntos*/
+    list-style: none;
+    /*nos quita el punto de cada elemnto*/
+    background-color:rgb(99, 99, 99) ;
+    padding: 10px 0px;
+
+}
+
+
+        nav a:hover{
+            color:white;
+
+        }
+        @media (max-width:700px){
+
+        }
+        nav a{
+            font-weight: 600;
+            padding-right:10px;
+            list-style: none;
+        }
+        
+        h1{
+        text-align:center;
+
+        background-color: black;
+        color: white;
+        padding: 20px;
+        font-family: 'Bungee Shade', cursive;
+    }
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        color:white;
+        margin-top: 40px;
+
+
+    }
+    
+        .contenedor{
+            display:flex;
+            margin-left: 20px;
+            margin-top: 20px;
+            list-style:img-1;
+            
+        }
+        .img-1{
+            margin-right: 20px;
+            margin-left: 20px;
+            
+         } 
+        .img-2{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .img-3{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .img-4{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .contenedores{
+            display:flex;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .imd-1{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .imd-2{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .imd-3{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .img-4s{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        
